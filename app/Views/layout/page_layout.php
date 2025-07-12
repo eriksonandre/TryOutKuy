@@ -1,7 +1,3 @@
 <?= $this->include('layout/head'); ?>
-<body>
-	<?= $this->renderSection('content'); ?>
-</body>
-
+<?= $this->renderSection('content'); ?>
 <?= $this->include('layout/footer'); ?>
-</html>
