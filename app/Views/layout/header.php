@@ -21,22 +21,22 @@
 
 <body>
 	<header class="fixed-top">
-		<nav class="navbar navbar-expand-lg bg-primary-subtle ">
+		<nav class="navbar navbar-expand-lg bg-primary-subtle">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">
-					<b>TryoutKuy!!!</b>
-				</a>
+				<div class="mr-3">
+					<img src="/assets/images/logo_tryout.png" alt="logo_tryout" class="img-fluid">
+				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+				<div class="collapse navbar-collapse d-flex justify-content-start " id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
 						<a class="nav-link" href="#">About</a>
 						<a class="nav-link" href="#">Paket</a>
-						<a class="nav-link" href="#"><i class="fa-solid fa-circle-user "></i></a>
 					</div>
 				</div>
+				<a class="nav-link" href="#"><i class="fa-solid fa-circle-user "></i></a>
 			</div>
 		</nav>
 	</header>
