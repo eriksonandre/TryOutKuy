@@ -17,26 +17,33 @@
 	<link href="/assets/css/duotone-thin.css" rel="stylesheet" />
 	<link href="/assets/css/brands.css" rel="stylesheet" />
 	<link href="/assets/css/sharp-duotone-thin.css" rel="stylesheet" />
+	<link href="/assets/css/custom.css" rel="stylesheet" />
 </head>
 
 <body>
-	<header class="fixed-top">
-		<nav class="navbar navbar-expand-lg bg-primary-subtle">
+	<header class="fixed-top pt-3">
+		<nav class="navbar navbar-expand-lg px-3">
 			<div class="container-fluid">
-				<div class="mr-3">
-					<img src="/assets/images/logo_tryout.png" alt="logo_tryout" class="img-fluid">
+				<div class="pl-2">
+					<img src="/assets/images/logo_tryout.png" alt="logo_tryout" class="img">
 				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse d-flex justify-content-start " id="navbarNavAltMarkup">
+
+				<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-						<a class="nav-link" href="#">About</a>
-						<a class="nav-link" href="#">Paket</a>
+						<a class="nav-link text-neutral fw-semibold" href="#">Home</a>
+						<a class="nav-link text-neutral fw-semibold" href="#">Bundle</a>
+						<a class="nav-link text-neutral fw-semibold" href="#">Contact</a>
 					</div>
 				</div>
-				<a class="nav-link" href="#"><i class="fa-solid fa-circle-user "></i></a>
+			</div>
+			<div class="d-flex gap-3 justify-content-center col-2">
+				<button type="button" class="btn btn-sm text-neutral bg-smartest border-white" data-bs-toggle="modal" data-bs-target="#modallogin">
+					<b class="fs-6">Log In</b>
+				</button>
+				<button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalsignup">
+					<b class="fs-6">Regist</b>
+				</button>
 			</div>
 		</nav>
+
 	</header>

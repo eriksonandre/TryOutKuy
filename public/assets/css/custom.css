@@ -1,0 +1,16 @@
+/* Pallete warna custom*/
+.text-knowledge { color: #1E3A8A; }   /* Biru tua */
+.text-smartest  { color: #10375c; }   /* Biru Navy */
+.text-trust     { color: #FFD700; }   /* Emas */
+.text-elegant   { color: #0F172A; }   /* Biru gelap */
+.text-prof      { color: #2C3E50; }   /* Biru abu gelap */
+.text-neutral   { color: #F5F5F5; }   /* Abu terang */
+.text-accent    { color: #16A34A; }   /* Hijau tua */
+
+.bg-knowledge { background: #1E3A8A; }
+.bg-smartest  { background: #10375c; }
+.bg-trust     { background: #FFD700; }
+.bg-elegant   { background: #0F172A; }
+.bg-prof      { background: #2C3E50; }
+.bg-neutral   { background: #F5F5F5; }
+.bg-accent    { background: #16A34A; }
